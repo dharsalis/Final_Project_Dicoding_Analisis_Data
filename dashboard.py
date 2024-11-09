@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/16_ZJR-_75_Gre1JAZX99OBo25kT8sSEO
 """
 
-!pip install -q streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile Dashboard.py
@@ -44,9 +43,3 @@ Original file is located at
 # plt.xlabel('Season')
 # plt.ylabel('Count')
 # st.pyplot(musim_data)
-
-!npm install localtunnel
-
-!streamlit run Dashboard.py &>/content/logs.txt & curl ipv4.icanhazip.com
-
-!npx localtunnel --port 8501
