@@ -15,5 +15,16 @@ Project ini berfokus pada proses analisis data menjawab pertanyaan-pertanyaan bi
 - **Pandas**, **Numpy**, **Matplotlib**, **Seaborn**: Analisis Data dan Plotting
 - **Streamlit**: Web Application Network
 
+## How to Run Dashboard
+
+1. Install The Required Dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. On Terminal Local:
+    ```bash
+    streamlit run dashboard.py
+    ```
+
 ## Data Source
 Project ini menggunakan dataset yang telah disediakan oleh Dicoding sebagai bahan pengerjaan tugas akhir pada kursus kelas Analisis Data dengan Python
